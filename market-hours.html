@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Hours | Trading Sessions & Holiday Schedule</title>
+    <meta name="description" content="Stock market hours today. NYSE, NASDAQ, pre-market, after-hours trading times and holiday schedule.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0e1a; color: #e8eaed; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        nav { background: #111827; padding: 15px 20px; border-bottom: 1px solid #1e3a5f; margin: -20px -20px 30px; }
+        nav a { color: #00d4aa; text-decoration: none; }
+        header { text-align: center; padding: 40px 0; border-bottom: 1px solid #1e3a5f; margin-bottom: 30px; }
+        h1 { font-size: 2.2em; background: linear-gradient(135deg, #00d4aa, #00a8e8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .schedule { background: #111827; border: 1px solid #1e3a5f; border-radius: 12px; padding: 30px; margin-bottom: 25px; }
+        .schedule h2 { color: #00d4aa; margin-bottom: 20px; }
+        .time-slot { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #1e3a5f; }
+        .time-slot:last-child { border-bottom: none; }
+        .session { font-weight: bold; }
+        .time { color: #00d4aa; font-family: monospace; }
+        .status { color: #8b92a8; }
+        footer { text-align: center; padding: 40px 0; color: #4a5568; border-top: 1px solid #1e3a5f; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav><a href="/">← Home</a></nav>
+        <header>
+            <h1>🕐 Market Hours</h1>
+            <p style="color: #8b92a8; margin-top: 10px;">Trading sessions and holiday schedule</p>
+        </header>
+
+        <div class="schedule">
+            <h2>Regular Trading Hours</h2>
+            <div class="time-slot">
+                <span class="session">NYSE & NASDAQ Open</span>
+                <span class="time">9:30 AM ET</span>
+            </div>
+            <div class="time-slot">
+                <span class="session">NYSE & NASDAQ Close</span>
+                <span class="time">4:00 PM ET</span>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h2>Extended Hours</h2>
+            <div class="time-slot">
+                <span class="session">Pre-Market Trading</span>
+                <span class="time">4:00 AM - 9:30 AM ET</span>
+            </div>
+            <div class="time-slot">
+                <span class="session">After-Hours Trading</span>
+                <span class="time">4:00 PM - 8:00 PM ET</span>
+            </div>
+        </div>
+
+        <div class="schedule">
+            <h2>2025 Market Holidays</h2>
+            <div class="time-slot"><span class="session">New Year's Day</span><span class="status">January 1</span></div>
+            <div class="time-slot"><span class="session">Martin Luther King Jr. Day</span><span class="status">January 20</span></div>
+            <div class="time-slot"><span class="session">Presidents Day</span><span class="status">February 17</span></div>
+            <div class="time-slot"><span class="session">Good Friday</span><span class="status">April 18</span></div>
+            <div class="time-slot"><span class="session">Memorial Day</span><span class="status">May 26</span></div>
+            <div class="time-slot"><span class="session">Juneteenth</span><span class="status">June 19</span></div>
+            <div class="time-slot"><span class="session">Independence Day</span><span class="status">July 4</span></div>
+            <div class="time-slot"><span class="session">Labor Day</span><span class="status">September 1</span></div>
+            <div class="time-slot"><span class="session">Thanksgiving</span><span class="status">November 27</span></div>
+            <div class="time-slot"><span class="session">Christmas</span><span class="status">December 25</span></div>
+        </div>
+
+        <footer><p>© ${new Date().getFullYear()} Pre-Market Brief</p></footer>
+    </div>
+</body>
+</html>
