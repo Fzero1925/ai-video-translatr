@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pre-Market Stock Brief</title>
+    <link>https://premarketbrief.com</link>
+    <description>Daily pre-market stock market briefing with top movers, indices, and analysis.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Feb 2026 05:07:13 GMT</lastBuildDate>
+    <atom:link href="https://premarketbrief.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://premarketbrief.com/logo.png</url>
+      <title>Pre-Market Stock Brief</title>
+      <link>https://premarketbrief.com</link>
+    </image>
+    
+    <item>
+      <title>TSLA ▲ 3.45%</title>
+      <link>https://premarketbrief.com/stock/TSLA</link>
+      <pubDate>Tue, 03 Feb 2026 05:07:13 GMT</pubDate>
+      <description><![CDATA[
+        <strong>TSLA</strong> is trading at $248.50 
+        up 3.45% 
+        in pre-market trading.
+      ]]></description>
+      <guid>https://premarketbrief.com/stock/TSLA-2026-02-03</guid>
+    </item>
+  
+    <item>
+      <title>NVDA ▲ 2.87%</title>
+      <link>https://premarketbrief.com/stock/NVDA</link>
+      <pubDate>Tue, 03 Feb 2026 05:07:13 GMT</pubDate>
+      <description><![CDATA[
+        <strong>NVDA</strong> is trading at $875.20 
+        up 2.87% 
+        in pre-market trading.
+      ]]></description>
+      <guid>https://premarketbrief.com/stock/NVDA-2026-02-03</guid>
+    </item>
+  
+    <item>
+      <title>AAPL ▼ 1.23%</title>
+      <link>https://premarketbrief.com/stock/AAPL</link>
+      <pubDate>Tue, 03 Feb 2026 05:07:13 GMT</pubDate>
+      <description><![CDATA[
+        <strong>AAPL</strong> is trading at $189.30 
+        down 1.23% 
+        in pre-market trading.
+      ]]></description>
+      <guid>https://premarketbrief.com/stock/AAPL-2026-02-03</guid>
+    </item>
+  
+  </channel>
+</rss>
